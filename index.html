@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unbuddha</title>
+    <!-- Logo tab de Chrome -->
+    <link rel="shortcut icon" href="./img/unbuddha logo.jpg" type="image/x-icon"> 
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Link Bootstrap: -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <header> <!-- Encabezado -->
+        <div> <!-- DIV p contener al banner -->
+            <img src="./img/unbuddha banner.png" alt="banner"> <!-- Esto sería el logo -->
+        </div>
+    </header>
+
+    <!-- Inicio Menu de NAVegacion de bootstrap-->
+
+    <nav class="navbar navbar-dark bg-dark sticky-top navbar-expand-lg " data-bs-theme="dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Inicio de todo lo que va a colapsar cuando se achique la pantalla: -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Inicio Iconos de redes sociales -->
+            <div class="top_social_media">
+                <a href="https://www.youtube.com/@unbuddhaoficial1223/videos" target="_blank"><i class="fa fa-youtube"></i></a>
+                <a href="https://www.facebook.com/unbuddhaoficial" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://ar.pinterest.com/unbuddha/" target="_blank"><i class="fa fa-pinterest"></i></a>
+                <a href="https://unbuddha.bandcamp.com/releases/" target="_blank"><i class="fa fa-bandcamp"></i></a>
+            </div>
+        <!-- Fin Iconos de redes sociales -->
+        <!-- Inicio Items Nav Menu: -->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/sobre_la_banda.html">SOBRE LA BANDA</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="./pages/galeria.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                GALERIA
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./pages/galeria.html#galeria-videos">Videos</a></li>
+                <li><a class="dropdown-item" href="./pages/galeria.html#galeria-fotos">Fotos</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./pages/merch.html">PRODUCTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./pages/contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+          <!-- Fin Items Nav Menu: -->
+        </div>
+        <!-- Fin todo lo que va a colapsar cuando se achique la pantalla: -->
+      </div>
+    </nav>
+    <!-- FIN Menu de NAVegacion de bootstrap-->
+
+    <main>
+
+      <!-- Inicio Sección Carrusel Bootsrap -->
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/carousel_1.avif" alt="carousel_item_1" width="100%" height="100%">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Unbuddha</h1>
+                  <p>Stoner, Rock, Doom y más</p>
+                  <p><a class="btn btn-lg btn-primary" href="./pages/galeria.html">Ir a la Galeria</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/carousel_2.avif" alt="carousel_item_1" width="100%" height="100%">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Unbuddha</h1>
+                  <p>Stoner, Rock, Doom y más</p>
+                  <p><a class="btn btn-lg btn-primary" href="./pages/galeria.html">Ir a la Galeria</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/carousel_3.avif" alt="carousel_item_1" width="100%" height="100%">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Unbuddha</h1>
+                  <p>Stoner, Rock, Doom y más</p>
+                  <p><a class="btn btn-lg btn-primary" href="./pages/galeria.html">Ir a la Galeria</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      <!-- Fin  Sección Carrusel Bootsrap -->
+
+      <!-- Inicio THE FEATURETTES Bootstrap  -->
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Unbuddha <span class="text-muted">Lo mas crudo del stoner nacional.</span></h2>
+          <p class="lead">Conocé más sobre la historia de la banda </p>
+          <a class="btn btn-lg btn-primary" href="./pages/sobre_la_banda.html">SOBRE LA BANDA</a>
+        </div>
+        <div class="col-md-5">
+          <img src="./img/guitarra.jpeg" alt="featurette-image" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" preserveAspectRatio="xMidYMid slice" focusable="false"> 
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">Productos originales de la banda: <span class="text-muted">Ropa, accesorios y más</span></h2>
+          <p class="lead">Entrá a conocer todos los productos.</p>
+          <a class="btn btn-lg btn-primary" href="./pages/merch.html">IR AL SHOP</a>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="./img/guitarrista.webp" alt="featurette-image" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" preserveAspectRatio="xMidYMid slice" focusable="false"> 
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Hacete amigo: <span class="text-muted">Ponete en contacto con la banda</span></h2>
+          <p class="lead">Suscribite al newsletter y enterate de las próximas fechas.</p>
+          <a class="btn btn-lg btn-primary" href="./pages/contacto.html">CONTACTO</a>
+        </div>
+        <div class="col-md-5">
+          <img src="./img/publico-2.jpeg" alt="featurette-image" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" preserveAspectRatio="xMidYMid slice" focusable="false"> 
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <!-- Fin THE FEATURETTES Bootstrap  -->
+
+    </main>
+
+     <!-- Inicio  Footer Bootstrap -->
+     <footer class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img src="./img/UB-logo.PNG" alt="ub-logo" width="30" height="30">
+          <small class="d-block mb-3 text-muted">&copy; 2015–2020</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Sitio</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="./pages/sobre_la_banda.html">Sobre la Banda</a></li>
+            <li><a class="link-secondary" href="./pages/galeria.html">Galeria</a></li>
+            <li><a class="link-secondary" href="./pages/merch.html">Productos</a></li>
+            <li><a class="link-secondary" href="./pages/contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Bandas Amigas</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="https://www.metallica.com/" target="_blank">Metallica</a></li>
+            <li><a class="link-secondary" href="https://www.facebook.com/trileros/" target="_blank">Trileros</a></li>
+            <li><a class="link-secondary" href="https://www.facebook.com/falsostitos/" target="_blank">Falsos Titos</a></li>
+            <li><a class="link-secondary" href="https://www.youtube.com/@ScreamInc" target="_blank">Scream Inc</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Redes</h5>
+          <div class="footer_social_media">
+            <ul class="list-unstyled text-small">
+              <li><a href="https://www.youtube.com/@unbuddhaoficial1223/videos" target="_blank"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="https://www.facebook.com/unbuddhaoficial" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://ar.pinterest.com/unbuddha/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+              <li><a href="https://unbuddha.bandcamp.com/releases/" target="_blank"><i class="fa fa-bandcamp"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer> 
+    <!-- Fin Footer Bootstrap  --> 
+
+    <!-- Inicio Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- Fin Script Bootstrap -->
+</body>
+</html>
+
