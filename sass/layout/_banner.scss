@@ -1,0 +1,15 @@
+ /* ************************* */
+/*   Banner                   */
+/* *************************  */
+
+ header div {
+    text-align: start; /* centra el div horizontalmente */
+    background-image: linear-gradient(to right,black, black, black, #982C03ff, #982C03ff, #D02114ff);
+    
+    /* Imagen dentro del Banner  */
+    img {
+        width: 25%; /* ajusta el ancho del banner al ancho del contenedor */
+        height: 25%;
+        margin: 0 auto;
+    }
+}

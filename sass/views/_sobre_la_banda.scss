@@ -1,0 +1,26 @@
+/* ********************* */
+/* seccion SOBRE LA BANDA */
+/* ********************* */
+
+.img-fluid {
+  height: 30rem !important;
+  object-fit: cover;
+  }
+
+.integrante-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover; /* This ensures that the image fills the space and maintains its aspect ratio */
+}
+
+.container-fluid {
+  h1 {
+    font-family: $title-font;
+  }
+  p {
+    font-family: $body-font;
+  }
+  h2 {
+    font-family: $title-font;
+  }
+}

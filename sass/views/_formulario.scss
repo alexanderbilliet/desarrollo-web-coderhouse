@@ -1,0 +1,53 @@
+/* *************************  */
+/*  FORMULARIO                */
+/* *************************  */
+
+/* Fuente: */
+/* https://www.w3schools.com/howto/howto_css_contact_form.asp */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=email], input[type=checkbox] select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Dist desde el borde al placeholder text */ 
+    border: 1px solid #ccc; /* Borde para la caja de input*/
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-family: $body-font;
+    font-weight: 400;
+}
+  
+  /* Estilo botones de Submit e Input */
+input[type=submit],input[type=reset]  {
+  background-color: $color-brown;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  
+  /* Hover sobre los botones de submit e input*/
+input[type=submit]:hover, input[type=reset]:hover {
+  background-color: white;
+  color:$color-brown;
+}
+
+  
+  /* Add a background color and some padding around the form */
+.contenedor_formulario {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  color: $color-brown;
+  font-family: $body-font;
+  select {
+    color: $color-brown;
+  }
+  .form-comentarios {
+    margin-top: 6px;
+  }
+}
+  

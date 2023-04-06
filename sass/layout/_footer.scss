@@ -1,0 +1,32 @@
+/* *************************  */
+/*  FOOTER Bootstrap          */
+/* *************************  */
+
+
+/* Estilo headers del footer */
+
+footer .row h5 {
+  color:$color-brown;
+  font-family: $footer-font;  
+}
+
+footer {
+  a {
+    font-family: $footer-font;
+  }
+  small {
+    font-family: $footer-font;
+  }
+  /* Estilo iconos social media Footer*/
+  .footer_social_media{
+    padding: 14px 15px;
+    background-color:none;
+    a {
+      padding: 10px;
+      color:black;
+    }
+  }
+}
+
+
+

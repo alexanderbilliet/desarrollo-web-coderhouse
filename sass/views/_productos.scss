@@ -1,0 +1,49 @@
+/* ********************* */
+/* seccion PRODUCTOS */
+/* ********************* */
+
+
+/* Estilo Sidebar */
+
+
+/* Estilo focus accordion-button */
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(208, 33, 20, 0.1) !important;
+    outline: none;
+  }
+  
+  /* Check box - Categorias */
+  input[type="checkbox"]:checked {
+    background-color:$color-brown;
+  }
+  
+  .form-check-input:focus {
+    box-shadow: 0 0 0 0.2rem rgba(3, 10, 2, 0.5) !important;
+  }
+  
+  /* Form-range - Precio */
+  input[type="range"]::-webkit-slider-thumb {
+    background-color:$color-brown;
+    &:focus {
+      background-color: $color-brown !important;
+      box-shadow: 0 0 0 0.2rem rgba(3, 10, 2, 0.5) !important;
+    }
+  }
+ 
+  
+  /* Botones Side Bar: */
+  
+  .btn-white {
+    border-color: $color-brown !important;
+    background-color: $color-brown !important;
+    opacity: 0.8;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white !important;
+    &:hover {
+      background-color: white !important;
+      color: $color-brown !important;
+    }
+  }
+  
+
+  

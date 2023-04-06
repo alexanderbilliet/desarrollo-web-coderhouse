@@ -1,0 +1,57 @@
+/* ************************* */
+/*   Navbar                   */
+/* *************************  */
+
+.navbar {
+    background-image: linear-gradient(to right,$color-black, $color-black, $color-black, $color-brown, $color-brown, $color-fire-red);
+    height: 60px;
+    z-index: 11;
+}
+
+/* Estilo al .nav-item a bootstrap */
+.nav-item a {
+    color:white;
+    font-family: $nav-font;
+}
+
+.navbar-dark {
+    color: white
+}
+
+/* Estilo iconos social media*/
+
+.top_social_media{
+    padding: 14px 15px;
+    background-color:none;
+    a {
+        padding: 10px;
+        color: white;
+    }
+    a:hover{
+        color: $color-brown;
+    }
+}
+
+
+/* Background del nav colapsado */
+/* Pongo max-width 991px porque estoy usando un navbar de bootstrap que expande en lg */
+
+@media (max-width: 991px) {
+    .navbar-collapse
+      {
+          background-image: linear-gradient(to right,$color-black, $color-black, $color-black, $color-brown, $color-brown, $color-fire-red);
+          border-radius:5px;
+          border-style: groove;
+          border-color: black;
+          border-width: 2px;
+      }
+    
+      .nav-item a {
+        margin-left: 10px;
+      }
+  }
+
+
+
+
+
