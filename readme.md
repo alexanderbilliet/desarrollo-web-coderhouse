@@ -1,10 +1,10 @@
-# 3ra Pre-Entrega - Desarrollo WEB - Coderhouse
+# Proyecto Final - Desarrollo WEB - Coderhouse
 
 **Alumno: Alexander Billiet** <br>
 **Comisión: 39285** <br>
-**Fecha límite de entrega: 06/04/2023** <br>
+**Fecha límite de entrega: 23/04/2023** <br>
 
-## Sobre la entrega:
+## Sobre el proyecto:
 
 ### Descripción
 
@@ -20,7 +20,7 @@ El logo/banner fue animado en las 5 páginas usando https://animate.style/.
 
 ### Diseño
 
-El diseño está muy avanzado, no obstante lo cual, varios elementos de la entrega (imágenes, textos, fuentes, paleta de colores) no son versiones finales, sino temporales hasta la versión definitiva. 
+Se respetó un diseño general que incluye paleta de colores, tipografías, degradees, etc.  
 
 ### Meta Tags de SEO
 
