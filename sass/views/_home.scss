@@ -22,9 +22,12 @@
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 32rem;
+    height: 36rem;
     width: auto;
     object-fit: cover;
+    img {
+      opacity: 1;
+    }
   }
 
 /* CAROUSEL BUTTON */

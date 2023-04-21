@@ -18,6 +18,9 @@
   color: white;
   font-family: "Montserrat", sans-serif;
 }
+.nav-item a:hover {
+  color: rgb(3, 10, 2);
+}
 
 .navbar-dark {
   color: white;
@@ -34,6 +37,14 @@
 }
 .top_social_media a:hover {
   color: rgb(152, 44, 3);
+}
+
+/* Estilo dropdown-menu*/
+.dropdown-menu {
+  background-image: linear-gradient(to right, rgb(3, 10, 2), rgb(3, 10, 2), rgb(3, 10, 2), rgb(152, 44, 3), rgb(152, 44, 3), rgb(208, 33, 20));
+}
+.dropdown-menu li a:hover {
+  background-color: white;
 }
 
 /* Background del nav colapsado */
@@ -91,6 +102,11 @@ footer .footer_social_media a {
   color: black;
 }
 
+/* $color-fire-red: rgba(208, 33, 20, 1);
+$color-bronze: rgba(204, 126, 32, 1);
+$color-burnt-umber: rgba(115, 56, 36, 1);
+$color-brown: rgba(152, 44, 3, 1);
+$color-black: rgba(3, 10, 2, 1); */
 /* ************************* */
 /*  HOME CAROUSEL Bootstrap   */
 /* *************************  */
@@ -115,10 +131,13 @@ footer .footer_social_media a {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 36rem;
   width: auto;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.carousel-item img {
+  opacity: 1;
 }
 
 /* CAROUSEL BUTTON */
@@ -287,11 +306,51 @@ footer .footer_social_media a {
   color: rgb(152, 44, 3);
 }
 
+#galeria-fotos, #galeria-videos {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Modal */
+/* ********************** */
+/* Modal Header*/
+/* ********************** */
+.modal-header {
+  color: rgb(152, 44, 3);
+  font-family: "Montserrat", sans-serif;
+}
+.modal-header .btn-close:focus {
+  box-shadow: 0 0 0 0.25rem rgba(152, 44, 3, 0.25);
+}
+
+/* Modal Footer */
+/* ********************** */
+.modal-footer {
+  font-family: "Montserrat", sans-serif;
+}
+.modal-footer button {
+  background-color: rgb(152, 44, 3);
+}
+.modal-footer button:hover {
+  background-color: white;
+  color: rgb(152, 44, 3);
+}
+
+/* Carusel dentro de Modal */
+/* ********************** */
+/* Ajusto el margen de abajo: */
+#myCarouselGaleria, #myCarouselGaleriaEnsayos, #myCarouselGaleriaMusicleta {
+  margin-bottom: 1rem;
+}
+
 /* ********************* */
 /* seccion PRODUCTOS */
 /* ********************* */
 /* Estilo Sidebar */
 /* Estilo focus accordion-button */
+.accordion-item {
+  font-family: "Montserrat", sans-serif;
+}
+
 .accordion-button:focus {
   box-shadow: 0 0 0 0.2rem rgba(208, 33, 20, 0.1) !important;
   outline: none;
@@ -326,6 +385,11 @@ input[type=range]::-webkit-slider-thumb:focus {
 .btn-white:hover {
   background-color: white !important;
   color: rgb(152, 44, 3) !important;
+}
+
+/* Estilo content */
+.row {
+  font-family: "Montserrat", sans-serif;
 }
 
 /* *************************  */

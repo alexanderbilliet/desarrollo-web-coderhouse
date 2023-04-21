@@ -65,8 +65,8 @@
                 GALERIA
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="./galeria.html#galeria-videos">Videos</a></li>
                 <li><a class="dropdown-item" href="./galeria.html#galeria-fotos">Fotos</a></li>
+                <li><a class="dropdown-item" href="./galeria.html#galeria-Videos">Videos</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -98,42 +98,42 @@
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
               <div class="col">
                 <div class="card shadow-sm">
-                  <img src="../img/gier.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <img src="../img/galeria/gier/gier-thumbnail.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false">
                   <div class="card-body">
                     <p class="card-text">Gier Music Club - Abril 2017</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver Album</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModalGier">Ver Album</button>
                       </div>
-                      <small class="text-muted">10 fotos</small>
+                      <small class="text-muted">8 fotos</small>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card shadow-sm">
-                  <img src="../img/museo-rockjpg.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <img src="../img/galeria/ensayos/ensayo-thumbnail.PNG" class="bd-placeholder-img card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false">
                   <div class="card-body">
-                    <p class="card-text">Mvseo Rock - Marzo 2017</p>
+                    <p class="card-text">Ensayos de la banda</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver Album</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModalEnsayos">Ver Album</button>
                       </div>
-                      <small class="text-muted">15 fotos</small>
+                      <small class="text-muted">8 fotos</small>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card shadow-sm">
-                  <img src="../img/musicletajpg.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <img src="../img/galeria/musicleta/musicleta-thumbnail.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false">
                   <div class="card-body">
                     <p class="card-text">Musicleta - Enero 2020</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver Album</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModalMusicleta">Ver Album</button>
                       </div>
-                      <small class="text-muted">20 fotos</small>
+                      <small class="text-muted">4 fotos</small>
                     </div>
                   </div>
                 </div>
@@ -142,6 +142,216 @@
             </div>
           </div>
         </div>
+
+        
+        <!-- Modal - exampleModalGier-->
+        <!-- *********************** -->
+        <div class="modal fade" id="exampleModalGier" tabindex="-1" role="dialog" aria-labelledby="exampleModalGierLabel" aria-hidden="true">
+          <!-- Ventana de modal -->
+          <div class="modal-dialog modal-lg" role="document">
+            <!-- Contenido Modal  --> 
+            <div class="modal-content">
+              <!-- Header del modal -->
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalGierLabel">Gier Music Club - Abril 2017</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                </button>
+              <!-- Fin Header del Modal -->
+              </div>
+              <div class="modal-body">
+                <!-- Inicio Sección Carrusel Bootsrap -->
+                <div id="myCarouselGaleria" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarouselGaleria" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarouselGaleria" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarouselGaleria" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#myCarouselGaleria" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#myCarouselGaleria" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#myCarouselGaleria" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#myCarouselGaleria" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#myCarouselGaleria" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../img/galeria/gier/gier1.PNG" alt="carousel_item_1" width="100%" height="100%">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/galeria/gier/gier2.PNG" alt="carousel_item_2" width="100%" height="100%">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/galeria/gier/gier3.PNG" alt="carousel_item_3" width="100%" height="100%">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/galeria/gier/gier4.PNG" alt="carousel_item_4" width="100%" height="100%">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/galeria/gier/gier5.PNG" alt="carousel_item_5" width="100%" height="100%">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/galeria/gier/gier6.PNG" alt="carousel_item_6" width="100%" height="100%">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/galeria/gier/gier7.PNG" alt="carousel_item_7" width="100%" height="100%">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/galeria/gier/gier8.PNG" alt="carousel_item_8" width="100%" height="100%">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#myCarouselGaleria" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#myCarouselGaleria" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <!-- Fin  Sección Carrusel Bootsrap -->
+              </div>
+              <!-- Footer del modal -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            <!-- Fin Contenido Modal -->
+            </div>
+            <!-- Fin Ventana Modal -->
+          </div>
+        </div>
+        <!-- Fin Modal - exampleModalGier -->
+        
+        <!-- Modal - exampleModalEnsayos -->
+        <!-- *********************** -->
+        <div class="modal fade" id="exampleModalEnsayos" tabindex="-1" role="dialog" aria-labelledby="exampleModalEnsayosLabel" aria-hidden="true">
+          <!-- Ventana de modal -->
+          <div class="modal-dialog modal-lg" role="document">
+            <!-- Contenido Modal  --> 
+            <div class="modal-content">
+              <!-- Header del modal -->
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalEnsayosLabel">Ensayos</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                </button>
+              <!-- Fin Header del Modal -->
+              </div>
+              <div class="modal-body">
+                <!-- Inicio Sección Carrusel Bootsrap -->
+                <div id="myCarouselGaleriaEnsayos" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarouselGaleriaEnsayos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarouselGaleriaEnsayos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarouselGaleriaEnsayos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#myCarouselGaleriaEnsayos" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#myCarouselGaleriaEnsayos" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#myCarouselGaleriaEnsayos" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#myCarouselGaleriaEnsayos" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#myCarouselGaleriaEnsayos" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../img/galeria/ensayos/ensayo1.png" alt="carousel_item_1" width="100%" height="100%">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/galeria/ensayos/ensayo2.png" alt="carousel_item_2" width="100%" height="100%">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/galeria/ensayos/ensayo3.png" alt="carousel_item_3" width="100%" height="100%">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/galeria/ensayos/ensayo4.png" alt="carousel_item_4" width="100%" height="100%">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/galeria/ensayos/ensayo5.png" alt="carousel_item_5" width="100%" height="100%">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/galeria/ensayos/ensayo6.png" alt="carousel_item_6" width="100%" height="100%">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/galeria/ensayos/ensayo7.png" alt="carousel_item_7" width="100%" height="100%">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/galeria/ensayos/ensayo8.png" alt="carousel_item_8" width="100%" height="100%">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#myCarouselGaleriaEnsayos" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#myCarouselGaleriaEnsayos" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <!-- Fin  Sección Carrusel Bootsrap -->
+              </div>
+              <!-- Footer del modal -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            <!-- Fin Contenido Modal -->
+            </div>
+            <!-- Fin Ventana Modal -->
+          </div>
+        </div>
+        <!-- Fin Modal - exampleModalEnsayos -->
+
+        <!-- Modal - exampleModalMusicleta -->
+        <!-- *********************** -->
+        <div class="modal fade" id="exampleModalMusicleta" tabindex="-1" role="dialog" aria-labelledby="exampleModalMusicletaLabel" aria-hidden="true">
+          <!-- Ventana de modal -->
+          <div class="modal-dialog modal-lg" role="document">
+            <!-- Contenido Modal  --> 
+            <div class="modal-content">
+              <!-- Header del modal -->
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalMusicletaLabel">Musicleta - Enero 2020</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                </button>
+              <!-- Fin Header del Modal -->
+              </div>
+              <div class="modal-body">
+                <!-- Inicio Sección Carrusel Bootsrap -->
+                <div id="myCarouselGaleriaMusicleta" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarouselGaleriaMusicleta" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarouselGaleriaMusicleta" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarouselGaleriaMusicleta" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#myCarouselGaleriaMusicleta" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../img/galeria//musicleta/musicleta1.png" alt="carousel_item_1" width="100%" height="100%">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/galeria//musicleta/musicleta2.png" alt="carousel_item_2" width="100%" height="100%">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/galeria//musicleta/musicleta3.png" alt="carousel_item_3" width="100%" height="100%">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/galeria//musicleta/musicleta4.png" alt="carousel_item_4" width="100%" height="100%">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#myCarouselGaleriaMusicleta" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#myCarouselGaleriaMusicleta" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <!-- Fin  Sección Carrusel Bootsrap -->
+              </div>
+              <!-- Footer del modal -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            <!-- Fin Contenido Modal -->
+            </div>
+            <!-- Fin Ventana Modal -->
+          </div>
+        </div>
+        <!-- Fin Modal - exampleModalMusicleta -->
 
         <section class="py-3 text-center container"  id="galeria-videos">
             <div class="row py-lg-3">

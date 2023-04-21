@@ -12,6 +12,9 @@
 .nav-item a {
     color:white;
     font-family: $nav-font;
+    &:hover {
+        color: $color-black;
+    }
 }
 
 .navbar-dark {
@@ -32,6 +35,15 @@
     }
 }
 
+/* Estilo dropdown-menu*/
+
+.dropdown-menu {
+    background-image: linear-gradient(to right,$color-black, $color-black, $color-black, $color-brown, $color-brown, $color-fire-red);
+    li
+        a:hover {
+            background-color: white;
+    }
+}
 
 /* Background del nav colapsado */
 /* Pongo max-width 991px porque estoy usando un navbar de bootstrap que expande en lg */

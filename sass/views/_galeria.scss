@@ -73,3 +73,42 @@
   }
 }
 
+#galeria-fotos, #galeria-videos{
+  font-family: $title-font;
+}
+
+
+
+/* Modal */
+/* ********************** */
+
+/* Modal Header*/
+/* ********************** */
+.modal-header {
+  color: $color-brown;
+  font-family: $title-font;
+  .btn-close:focus{
+    box-shadow: 0 0 0 0.25rem rgba(152, 44, 3, 0.25);
+  }
+}
+
+/* Modal Footer */
+/* ********************** */
+.modal-footer {
+  font-family: $body-font;
+  button {
+    background-color: $color-brown;
+  }
+  button:hover{
+    background-color: white;
+    color:$color-brown;
+  }
+}
+
+/* Carusel dentro de Modal */
+/* ********************** */
+
+/* Ajusto el margen de abajo: */
+#myCarouselGaleria, #myCarouselGaleriaEnsayos, #myCarouselGaleriaMusicleta {
+    margin-bottom: 1rem;
+  }
